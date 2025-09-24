@@ -17,11 +17,11 @@ namespace task02
             var b = double.Parse(Console.ReadLine());
 
             var area = a * b;
-            var p = (a + b) * 2;
+            var perimeter = (a + b) * 2;
 
             var double_a = Math.Pow(a, 2);
             var double_b = Math.Pow(b, 2);
-            var d = Math.Sqrt(double_a+double_b);
+            var diagonal = Math.Sqrt(double_a+double_b);
 
             Console.WriteLine("Площадь прямоугольника равна " + area);
             Console.WriteLine("Периметр прямоугольника равен " + p);
